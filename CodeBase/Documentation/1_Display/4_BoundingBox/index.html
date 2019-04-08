@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BoundingBox</title>
+
+    <!-- Included Source Files -->
+    <script src="../../../Source/Support/Color.js"></script>
+    <script src="../../../Source/Support/Vector.js"></script>
+    <script src="../../../Source/Support/Matrix.js"></script>
+    <script src="../../../Source/Support/BoundBox.js"></script>
+    <script src="../../../Source/Support/Sphere.js"></script>
+    <script src="../../../Source/Support/Camera.js"></script>
+    <script src="../../../Source/Support/GraphicContext.js"></script>
+    <script src="../../../Source/GraphicScript/Support/Font.js"></script>
+    <script src="../../../Source/GraphicScript/Support/Text.js"></script>
+    <script src="../../../Source/GraphicScript/GsVertex.js"></script>
+    <script src="../../../Source/GraphicScript/GsLines.js"></script>
+    <script src="../../../Source/GraphicScript/GsLineStrip.js"></script>
+    <script src="../../../Source/GraphicScript/GsTriangles.js"></script>
+    <script src="../../../Source/GraphicScript/GsTriangleStrip.js"></script>
+    <script src="../../../Source/GraphicScript/GsTriangleFan.js"></script>
+    <script src="../../../Source/GraphicScript/GsSpheres.js"></script>
+    <script src="../../../Source/GraphicScript/GsCylinders.js"></script>
+    <script src="../../../Source/GraphicScript/GsCuboids.js"></script>
+    <script src="../../../Source/GraphicScript/GsText.js"></script>
+    <script src="../../../Source/GraphicScript/GsGraphic.js"></script>
+    <script src="../../../Source/GraphicScript/Graphic.js"></script>
+    <script src="../../../Source/Shaders/Shader.js"></script>
+    <script src="../../../Source/Shaders/ShaderColorVertex.js"></script>
+    <script src="../../../Source/Shaders/ShaderColorNormalVertex.js"></script>
+    <script src="../../../Source/RunScript/RunScript.js"></script>
+
+    <!-- Run Script -->
+    <script src="BoundingBox.js"></script>
+    <script>
+        window.onload = function () {
+            var script = new BoundingBox();
+            script.run();
+        }
+    </script>
+</head>
+
+<body style="width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden">
+    <div>
+        <canvas id="graphicArea" style="width: 100%; height: 100%; position: absolute"></canvas>
+    </div>
+</body>
+
+</html>
