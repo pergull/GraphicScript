@@ -32,4 +32,4 @@ To create your own GraphicScript program, clone a Run example. For example, clon
 
 and then rename all "HelloWorld" references to "MyGraphicScriptProgram".
 
-Good luck and hope this tool can grow with your ideas and help to make creating graphics simple and fun.
+Good luck!
