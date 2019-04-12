@@ -1,3 +1,7 @@
+//
+// A simple Node.js server
+//
+
 var express = require("express");
 var app = express();
 

@@ -2,7 +2,7 @@
 {
     // Hide the *.js and *.map files
     "files.exclude": {
-        "**/*.js": true,
-        "**/*.map": true
+        "**/CodeBase/**/*.js": true,
+        "**/CodeBase/**/*.map": true
     }
 }
