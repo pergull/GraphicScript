@@ -1,0 +1,3 @@
+# Ignores compiled TypeScript files
+**/GraphicScript/CodeBase/**/*.map
+**/GraphicScript/CodeBase/**/*.js
