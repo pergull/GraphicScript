@@ -1,3 +1,7 @@
-# Ignores compiled TypeScript files
+# Ignore compiled TypeScript files
 **/CodeBase/**/*.map
 **/CodeBase/**/*.js
+
+# Ignore Node.js modules
+**/node_modules/**/*
+package-lock.json
