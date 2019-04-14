@@ -23,7 +23,7 @@ class Time extends RunScript {
     graphicDisplay() {
         // Define control parameters to rotate at 90 degrees per
         // second about z-axis
-        var degreesPerSec = 90;
+        var degreesPerSec = 9;
         var axis = [0, 0, 1];
 
         // Use Graphic.time() and degreesPerSec to control the
