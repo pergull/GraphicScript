@@ -18,21 +18,20 @@ Next open the GraphicScript folder with Visual Studio Code.  The GraphicScript f
 to build all the TypeScript code by issuing a build command.  It is best to understand the build
 configuration files by examining the following files:
 
-    - GraphicScript/tsconfig.json          => TypeScript files to compile
-    - GraphicScript/.vscode/settings.json  => Files to hide in Visual Studio Code
-    - GraphicScript/.vscode/tasks.json     => Build tasks
+    - GraphicScript/tsconfig.json      => TypeScript files to compile
+    - GraphicScript/.vscode/tasks.json => Build tasks
 
-To explore GraphicScript in action, open "index.html" - located in the CodeBase folder
+To explore GraphicScript in action, open "index.html" - located in the docs folder
 
-Documentation with examples are located in CodeBase/Documentation
+Documentation with examples are located in docs/Documentation
 
-Run examples are located in CodeBase/Run
+Run examples are located in docs/Run
 
-The supporting source code is located in CodeBase/Source
+The supporting source code is located in docs/Source
 
 To create your own GraphicScript program, clone a Run example. For example, clone:
 
-    CodeBase/Run/HelloWorld
+    docs/Run/HelloWorld
 
 and then rename all "HelloWorld" references to "MyGraphicScriptProgram".
 
