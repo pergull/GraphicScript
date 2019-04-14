@@ -1,7 +1,3 @@
-# Ignore compiled TypeScript files
-#**/docs/**/*.map
-#**/docs/**/*.js
-
 # Ignore Node.js modules
 **/node_modules/**/*
 package-lock.json

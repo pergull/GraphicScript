@@ -1,8 +1,8 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-    // Hide the *.js and *.map files
-    "files.exclude": {
-        //"**/docs/**/*.js": true,
-        //"**/docs/**/*.map": true
-    }
+    // Uncomment to hide the compiled *.js and *.map files in editor
+    //"files.exclude": {
+    //    "**/docs/**/*.js": true,
+    //    "**/docs/**/*.map": true
+    //}
 }
