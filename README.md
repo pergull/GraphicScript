@@ -3,7 +3,7 @@ WebGL Graphics with TypeScript and Visual Studio Code
 
 To get started, you should install Visual Studio Code from:
 
-    https://code.visualstudio.com/
+    [Visual Studio](https://code.visualstudio.com/)
 
 Since GraphicScript uses TypeScript, you will need to install Visual Studio Code TypeScript support.
 Instructions to add TypeScript support to Visual Studio Code can be found at:
