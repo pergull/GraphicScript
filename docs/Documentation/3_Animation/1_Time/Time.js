@@ -28,7 +28,7 @@ var Time = (function (_super) {
     Time.prototype.graphicDisplay = function () {
         // Define control parameters to rotate at 90 degrees per
         // second about z-axis
-        var degreesPerSec = 9;
+        var degreesPerSec = 90;
         var axis = [0, 0, 1];
         // Use Graphic.time() and degreesPerSec to control the
         // speed of the rotation
