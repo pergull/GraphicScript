@@ -1,6 +1,6 @@
 # Ignore compiled TypeScript files
-**/CodeBase/**/*.map
-**/CodeBase/**/*.js
+#**/docs/**/*.map
+#**/docs/**/*.js
 
 # Ignore Node.js modules
 **/node_modules/**/*
