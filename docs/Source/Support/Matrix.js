@@ -1,6 +1,6 @@
 var GraphicScript;
 (function (GraphicScript) {
-    var Matrix = (function () {
+    var Matrix = /** @class */ (function () {
         function Matrix() {
             this.mStack = [];
             this.m = new Float32Array([

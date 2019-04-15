@@ -1,6 +1,6 @@
 var GraphicScript;
 (function (GraphicScript) {
-    var Color = (function () {
+    var Color = /** @class */ (function () {
         function Color(r, g, b, a) {
             if (r === void 0) { r = -1; }
             if (g === void 0) { g = -1; }

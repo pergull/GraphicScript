@@ -1,6 +1,6 @@
 var GraphicScript;
 (function (GraphicScript) {
-    var Camera = (function () {
+    var Camera = /** @class */ (function () {
         function Camera(viewDirection, upVector) {
             this.position = new GraphicScript.Vector();
             this.center = new GraphicScript.Vector();

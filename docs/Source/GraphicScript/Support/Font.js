@@ -1,6 +1,6 @@
 var GraphicScript;
 (function (GraphicScript) {
-    var ftab_type = (function () {
+    var ftab_type = /** @class */ (function () {
         function ftab_type() {
             this.p = [];
             this.ind = [];
@@ -9,7 +9,7 @@ var GraphicScript;
     }());
     GraphicScript.ftab_type = ftab_type;
     ;
-    var Font = (function () {
+    var Font = /** @class */ (function () {
         function Font() {
             this.SET_VERTEX_MODE = 0;
             this.LINE_COUNT_MODE = 1;
@@ -78,7 +78,7 @@ var GraphicScript;
             while (p < e) {
                 x = Math.floor(Math.floor(this.ftab.p[p++]) - 'R'.charCodeAt(0));
                 y = Math.floor('R'.charCodeAt(0) - Math.floor(this.ftab.p[p++]));
-                if (x != -50) {
+                if (x != -50) { // means move
                     xp = (x - xt) * this.SCSIZEX;
                     yp = (y - yt) * this.SCSIZEY;
                     xs = xp - xtmp;

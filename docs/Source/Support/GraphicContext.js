@@ -16,7 +16,7 @@ var GraphicScript;
         Dimensions[Dimensions["Two"] = 0] = "Two";
         Dimensions[Dimensions["Three"] = 1] = "Three";
     })(Dimensions = GraphicScript.Dimensions || (GraphicScript.Dimensions = {}));
-    var GraphicContext = (function () {
+    var GraphicContext = /** @class */ (function () {
         function GraphicContext() {
             this.haveGraphicDisplay = true;
             this.curGraphicAreaWidth = 0;

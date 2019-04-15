@@ -1,6 +1,6 @@
 var GraphicScript;
 (function (GraphicScript) {
-    var Text = (function () {
+    var Text = /** @class */ (function () {
         function Text(xPosition, yPosition, zPosition, xPath, yPath, xScale, yScale, alignment, font, text) {
             this.MODE_2D = 0;
             this.MODE_3D = 1;
@@ -206,9 +206,9 @@ var GraphicScript;
             var acosArg = (u[0] * v[0] + u[1] * v[1] + u[2] * v[2]) /
                 (Math.sqrt(u[0] * u[0] + u[1] * u[1] + u[2] * u[2]) *
                     Math.sqrt(v[0] * v[0] + v[1] * v[1] + v[2] * v[2]));
-            if (acosArg <= -1.0)
+            if (acosArg <= -1.0) // catch roundoff errors
                 return 180.0;
-            if (acosArg >= 1.0)
+            if (acosArg >= 1.0) // catch roundoff errors
                 return 0.0;
             else {
                 var pi = Math.atan(1.0) * 4.0;

@@ -1,4 +1,4 @@
-var Graphic = (function () {
+var Graphic = /** @class */ (function () {
     function Graphic() {
         this.gsGraphic = new GraphicScript.GsGraphic();
     }

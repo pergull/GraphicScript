@@ -1,6 +1,6 @@
 var GraphicScript;
 (function (GraphicScript) {
-    var Sphere = (function () {
+    var Sphere = /** @class */ (function () {
         function Sphere() {
             this.center = new GraphicScript.Vector();
             this.clear();

@@ -1,6 +1,6 @@
 var GraphicScript;
 (function (GraphicScript) {
-    var GsVertex = (function () {
+    var GsVertex = /** @class */ (function () {
         function GsVertex() {
             this.arrayBufferDirty = true;
             this.vertexData = [];

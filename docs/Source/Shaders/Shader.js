@@ -1,6 +1,6 @@
 var GraphicScript;
 (function (GraphicScript) {
-    var Shader = (function () {
+    var Shader = /** @class */ (function () {
         function Shader() {
         }
         Shader.prototype.checkCompile = function (shader) {

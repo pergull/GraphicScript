@@ -1,6 +1,6 @@
 var GraphicScript;
 (function (GraphicScript) {
-    var BoundBox = (function () {
+    var BoundBox = /** @class */ (function () {
         function BoundBox() {
             this.min = new GraphicScript.Vector();
             this.max = new GraphicScript.Vector();

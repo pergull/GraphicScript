@@ -1,7 +1,10 @@
 var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
     return function (d, b) {
         extendStatics(d, b);
         function __() { this.constructor = d; }
@@ -10,7 +13,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 var GraphicScript;
 (function (GraphicScript) {
-    var GsCylinders = (function (_super) {
+    var GsCylinders = /** @class */ (function (_super) {
         __extends(GsCylinders, _super);
         function GsCylinders() {
             var _this = _super.call(this) || this;
@@ -63,7 +66,8 @@ var GraphicScript;
                 // Translate
                 gc.modelview.translate(x0, y0, z0);
                 // Rotate
-                if (vectorLength > 1.99999) {
+                if (vectorLength > 1.99999) // check for negative Z
+                 {
                     // Setup temporary transformation matrix to place the cylinder
                     gc.modelview.rotate(180.0, 1.0, 0.0, 0.0);
                 }

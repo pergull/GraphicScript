@@ -1,5 +1,5 @@
 var gc;
-var RunScript = (function () {
+var RunScript = /** @class */ (function () {
     function RunScript() {
         this.startGraphicScript();
     }
