@@ -27,7 +27,7 @@ Documentation with examples are located in docs/Documentation
 
 Run examples are located in docs/Run
 
-The supporting source code is located in docs/Source
+The supporting GraphicScript source code is located in docs/Source
 
 To create your own GraphicScript program, clone a Run example. For example, clone:
 
