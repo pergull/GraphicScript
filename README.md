@@ -1,4 +1,4 @@
-# GraphicScript Test
+# GraphicScript
 WebGL Graphics with TypeScript and Visual Studio Code
 
 Live demo of documentation and examples can be explored at:
